@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+	<meta charset="utf-8">
+	
+<head>
+	<title>Temperature Conversion</title>
+	<link type = "text/css" rel="stylesheet" href="css/styles.css">
+</head>
+
+<body background="background.jpg">
+	
+	<script = "js/script.js"></script>
+	
+	<form id="register" method="post" onsubmit="return false">
+
+	<header>
+		<link rel = "stylesheet" type="text/css" href="themes.css">
+			Celsius to Farenheight
+		
+	</header>
+	<br><br><br>
+	
+	<p align="center">
+	
+	<button id="ConvertBOX">
+	<label>Celsius Temperature</label><hr>
+	<br>
+	<input type="text" id="celsius" name="celsius" required aria-required="true"></input>
+	<br>
+	<button onclick="func()" id="register-submit">Convert</button><br>
+	</button>
+	<p id="demo" align="center"></p>
+	</p>
+	</form>
+	
+	
+	<script>
+		function func()
+		{
+			var c = document.getElementById("celsius").value;
+			var f = (1.8)*c + 32;
+			document.getElementById("demo").innerHTML = '<button id="result">The value in Farenheight is '+f+' ^F</button>';
+		}
+	</script>
+			
+</body>	
+</html>

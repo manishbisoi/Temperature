@@ -1,0 +1,68 @@
+header
+{
+	
+	color : white;
+	font-family : Arial;
+	text-align : center;
+	font-size : 300%;
+}
+
+label
+{
+	color : white;
+	text-align : center;
+	font-size : 190%;
+	font-family : Helvetica;
+		
+}
+#celsius
+{
+	text-align : center;
+	font-size : 130%;
+	font-family : Helvetica;
+		
+}
+#ConvertBOX
+{
+	display : inline block;
+	border : none;
+	background-color : black;
+	padding : 20px 20px;
+}
+
+#register-submit
+{
+
+	display : inline block;
+	border : none;
+	font-size : 130%;
+	color : white;
+	background-color : red;
+	padding : 20px 20px;
+	float : down;
+}
+#register-submit:hover
+{
+	display : inline block;
+	border : none;
+	font-size : 130%;
+	color : black;
+	background-color : yellow;
+	padding : 20px 20px;
+	float : down;
+}
+#demo
+{
+	color : white;
+	font-size : 150%;
+	font-family : Helvetica;
+	padding : 20px 20px;
+}
+#result
+{
+	font-family : Helvetica;
+	border : none;
+	background-color : lime;
+	font-size : 115%;
+	padding : 20px 20px;
+}
